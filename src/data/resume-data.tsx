@@ -22,9 +22,9 @@ export const RESUME_DATA = {
   location: "Warsaw, Poland, CET",
   locationLink: "https://www.google.com/maps/place/Warsaw/",
   about:
-    "Senior Frontend Engineer focused on building high performance and scalable web applications",
-  summary:
-    "As a Senior Frontend Engineer, I have completed multiple projects in different domains with all types of business requirements, which are dynamic/static/hybrid web application to headless CMS platforms. Have experience working with serverless platforms on different levels. Currently, I work mostly with Next.js, Typescript, Tailwind and Headless CMS. I have over 5 years of experience in working remotely with companies all around the world.",
+    "Senior Frontend Engineer focused on building blazingly fast and scalable web apps and sites",
+  summary: `For more than 5 years of my career, I have been working in such roles as a frontend engineer, and full-stack engineer, and I also have partially been leading a team of up to 3 people. I have completed multiple projects in different domains, helping to understand, improve, and fulfill business requirements. Sharing my knowledge and experience to help people around grow. I like to work closely with the team and tackle user's problems. My tech expertise is concentrated on serverless web technologies, including all the pieces necessary to complete the end-to-end development cycle. My go-to choice is next.js, although I like to try other technologies for specific tasks. Writing articles and open-sourcing.
+    `,
   avatarUrl:
     "https://res.cloudinary.com/dntmre4o4/image/upload/v1706639412/photos-platform/wwqnntmc0fm2aiscmcop.png",
   personalWebsiteUrl: "https://dogfrogfog.ch",
@@ -47,12 +47,17 @@ export const RESUME_DATA = {
         url: "https://x.com/dogfrogfog",
         icon: XIcon,
       },
+      {
+        name: "site",
+        url: "https://dogfrogfog.ch",
+        icon: null,
+      },
     ],
   },
   education: [
     {
       school: "Belarusian State University of Informatics and Radioelectronics",
-      degree: "Bachelor's Degree in Engineering and Economics",
+      degree: "Bachelor's Degree in Software Engineering and Economics",
       start: "2016",
       end: "2020",
     },
@@ -131,13 +136,79 @@ export const RESUME_DATA = {
     "React/Next.js",
     "Databases",
     "Serverless Infrastructure",
-    "Sanity",
     "Storyblok",
+    "Sanity",
     "Performance optimization",
   ],
   projects: [
     {
-      title: "Portal for Developers",
+      title: "hCMS boilerplate",
+      techStack: ["Next.js", "Storyblok", "Sanity", "Turborepo"],
+      description:
+        "Boilerplate to kick-off a new project. Focused on scalability, performance and reusability.",
+      link: {
+        label: "multi-theme cms",
+        href: "/",
+      },
+    },
+    {
+      title: "hCMS marketing platform",
+      techStack: ["Next.js", "Storyblok"],
+      description:
+        "Platform to manage multiple marketing websites using simple entry point.",
+      link: {
+        label: "multi-theme cms",
+        href: "/",
+      },
+    },
+    {
+      title: "App to learn new language using LLM",
+      techStack: ["Next.js", "Mistral", "PostgreSQL"],
+      description:
+        "App to help students learn language, using LLM-generated tasks and quizes.",
+      link: {
+        label: "e-commerce",
+        href: "https://language-learning-brown.vercel.app/",
+      },
+    },
+    {
+      title: "E-commerce store",
+      techStack: ["Next.js", "Protobuf", "Payment systems"],
+      description: "Platform to sell clothes online. Inhouse brand.",
+      link: {
+        label: "e-commerce",
+        href: "https://grbpwr-com-dusky.vercel.app",
+      },
+    },
+    {
+      title: "Platforms integration",
+      techStack: ["Next.js", "Vercel", "Sanity", "Github"],
+      description:
+        "Integration to link multiple platforms to execute multi-step flow.",
+      link: {
+        label: "multi-theme cms",
+        href: "/",
+      },
+    },
+    {
+      title: "hCMS marketing site",
+      techStack: [
+        "Next.js",
+        "Storyblok",
+        "GraphQL",
+        "PostrgeSQL",
+        "PostgreSQL",
+        "MongoDB",
+      ],
+      description:
+        "CMS platform for marketing and content teams. Helped improve SEO and iterations spead.",
+      link: {
+        label: "marketing site",
+        href: "/",
+      },
+    },
+    {
+      title: "Platform for developers",
       techStack: [
         "Next.js",
         "Blitz.js",
@@ -149,6 +220,42 @@ export const RESUME_DATA = {
       link: {
         label: "portal.gitnation.org",
         href: "https://portal.gitnation.org/",
+      },
+    },
+    {
+      title: "Browser extension",
+      techStack: ["Plasmo", "React.js", "Chrome", "Mozilla", "Figma"],
+      description: "Extension to help schedule multi-timizone meatings easily.",
+      link: {
+        label: "chrome store",
+        href: "https://chromewebstore.google.com/detail/time%E2%9A%A1%EF%B8%8Fshift-time-zones-fo/ooaolokpmaegijiojfepfiojnihnppih",
+      },
+    },
+    {
+      title: "Photo hosting platform",
+      techStack: ["Next.js", "Cloudinary", "PostrgeSQL", "Clerk auth"],
+      description:
+        "Platform to store and share film photos. HMY for password to try 😉.",
+      link: {
+        label: "photo hosting platform",
+        href: "https://photo-hosting-platform.vercel.app/",
+      },
+    },
+    {
+      title: "Meal planning app",
+      techStack: [
+        "Next.js",
+        "Stripe",
+        "PostrgeSQL",
+        "Drizzle",
+        "Serverless Infrastructure",
+        "Clerk auth",
+        "LLMs",
+      ],
+      description: "App to create a personalized meal plan using LLM.",
+      link: {
+        label: "plate mate AI",
+        href: "/",
       },
     },
     {
@@ -170,7 +277,7 @@ export const RESUME_DATA = {
     {
       title: "Pyroscope",
       techStack: ["React", "Redux", "Charts", "Flamegraphs", "Profiling"],
-      description: "Cloud native continious profiling platform.",
+      description: "Cloud native continious profiling platform.: Python.",
       link: {
         label: "pyroscope.io",
         href: "https://pyroscope.io/",
