@@ -277,7 +277,7 @@ export const RESUME_DATA = {
     {
       title: "Pyroscope",
       techStack: ["React", "Redux", "Charts", "Flamegraphs", "Profiling"],
-      description: "Cloud native continious profiling platform.: Python.",
+      description: "Cloud native continious profiling platform.",
       link: {
         label: "pyroscope.io",
         href: "https://pyroscope.io/",
