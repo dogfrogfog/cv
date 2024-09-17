@@ -23,7 +23,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Warsaw/",
   about:
     "Senior Frontend Engineer focused on building blazingly fast and scalable web apps and sites",
-  summary: `For more than 5 years of my career, I have been working in such roles as a frontend engineer, and full-stack engineer, and I also have partially been leading a team of up to 3 people. I have completed multiple projects in different domains, helping to understand, improve, and fulfill business requirements. Sharing my knowledge and experience to help people around grow. I like to work closely with the team and tackle user's problems. My tech expertise is concentrated on serverless web technologies, including all the pieces necessary to complete the end-to-end development cycle. My go-to choice is next.js, although I like to try other technologies for specific tasks. Writing articles and open-sourcing.
+  summary: `For more than 6 years of my career, I have been working in such roles as a frontend engineer, and full-stack engineer, and I also have partially been leading a team of up to 3 people. I have completed multiple projects in different domains, helping to understand, improve, and fulfill business requirements. Sharing my knowledge and experience to help people around grow. I like to work closely with the team and tackle user's problems. My tech expertise is concentrated on serverless web technologies, including all the pieces necessary to complete the end-to-end development cycle. My go-to choice is next.js, although I like to try other technologies for specific tasks. Writing articles and open-sourcing.
     `,
   avatarUrl:
     "https://res.cloudinary.com/dntmre4o4/image/upload/v1706639412/photos-platform/wwqnntmc0fm2aiscmcop.png",
